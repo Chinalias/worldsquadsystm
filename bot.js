@@ -5,7 +5,7 @@ const client = new Discord.Client();
 const prefix = "*";
 const config = require("./config.json")
 
-const devs = ["331081268731052042,376480203389665281"]
+const devs = ["331081268731052042"]
 
 const adminprefix = "*";
 client.on('message', message => {
